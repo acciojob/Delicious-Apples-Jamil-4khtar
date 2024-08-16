@@ -1,1 +1,44 @@
 /* your code here */
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+.photo-container {
+    display: flex;
+    flex-direction: column;
+}
+.controls {
+    display: flex;
+    justify-content: space-between;
+}
+.photo-album ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.product__info {
+    display: flex;
+    flex-direction: column;
+}
+.product__info .price {
+    font-size: 24px;
+}
+.price span {
+    font-size: 54px;
+}
+.product__info .variant ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+}
